@@ -1,0 +1,20 @@
+name: Suggest a tool or an improvement
+description: A free tool you wish existed, or something an existing one should do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: Describe the job, not the feature. "I never know if my invoices land in spam" is more useful than "add an email checker".
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+  - type: input
+    id: business
+    attributes:
+      label: What kind of business do you run?
+      placeholder: "Bakery, clinic, agency, shop"

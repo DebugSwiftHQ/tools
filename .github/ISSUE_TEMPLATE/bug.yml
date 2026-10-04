@@ -1,0 +1,45 @@
+name: Report a problem with a tool
+description: A tool gave a wrong result, broke, or didn't work on your device.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public page. Don't paste passwords, private email addresses or anything you wouldn't put on a website.
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool?
+      options:
+        - Website Audit
+        - Schema Generator
+        - Email Deliverability Check
+        - Meta & Headline Generator
+        - Quote & Invoice Generator
+        - Brand Kit Generator
+        - QR Code Generator
+        - Image Compressor
+        - Project Scoper
+    validations:
+      required: true
+  - type: input
+    id: input
+    attributes:
+      label: What you checked
+      description: The public web address or domain you tested, if the tool takes one.
+      placeholder: "example.com"
+  - type: textarea
+    id: got
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: "iPhone, Safari"

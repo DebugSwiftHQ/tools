@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open the tools
+    url: https://debugswift.com/tools
+    about: All nine, free, no sign-up.
+  - name: Email DebugSwift
+    url: mailto:hello@debugswift.com
+    about: For anything you'd rather not post in public.

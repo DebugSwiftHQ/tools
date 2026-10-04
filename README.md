@@ -2,7 +2,9 @@
 
 **Live:** https://debugswift.com/tools
 
-Nine free tools for small businesses. No sign-up, and the result is never behind an email form.
+Nine free tools for small businesses. No sign-up, and the result is never behind an email form. Seven of the nine run entirely in your browser.
+
+![The DebugSwift free tools hub](assets/desktop.png)
 
 | Tool | What it does |
 |---|---|
@@ -16,8 +18,19 @@ Nine free tools for small businesses. No sign-up, and the result is never behind
 | [Image Compressor](https://debugswift.com/tools/image-compressor) | Shrinks photos on your own device so a page stops waiting on them. Nothing is uploaded. |
 | [Project Scoper](https://debugswift.com/tools/project-scoper) | Turns a vague idea into a written brief, so three quotes are finally comparable. |
 
+## Documentation
+
+- **[The tools, one by one](docs/guide.md):** what each checks, what it can't tell you, and what happens to what you type
+- **[Changelog](CHANGELOG.md):** what changed, and when
+
+<img src="assets/phone.png" alt="The tools hub on a phone" width="300">
+
+## Found a problem, or want a tool?
+
+[Open an issue](../../issues/new/choose): report a wrong result, or suggest a tool you wish existed.
+
 ## Source code
 
-The tools' source is private. This repository is their public page.
+The tools' source is private. This repository is their public home: documentation, changelog and issue tracker.
 
 Built by [DebugSwift](https://debugswift.com).
