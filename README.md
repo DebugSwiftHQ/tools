@@ -4,7 +4,7 @@
 
 Nine free tools for small businesses. No sign-up, and the result is never behind an email form. Seven of the nine run entirely in your browser.
 
-![The DebugSwift free tools hub](assets/desktop.png)
+![The DebugSwift free tools hub on desktop and phone](assets/showcase.png)
 
 | Tool | What it does |
 |---|---|
@@ -22,8 +22,6 @@ Nine free tools for small businesses. No sign-up, and the result is never behind
 
 - **[The tools, one by one](docs/guide.md):** what each checks, what it can't tell you, and what happens to what you type
 - **[Changelog](CHANGELOG.md):** what changed, and when
-
-<img src="assets/phone.png" alt="The tools hub on a phone" width="300">
 
 ## Found a problem, or want a tool?
 
