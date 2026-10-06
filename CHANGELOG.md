@@ -4,6 +4,16 @@ What changed in the tools, newest first. Written from the history of their priva
 
 ## October 2026
 
+- **The hub became a dashboard:** a usable Website Audit at the top, compact tiles grouped by job, each saying where it runs.
+- **New: Digital Footprint Check.** How findable and believable a business is online, scored out of 100 with a to-do list.
+- **New: Fallback Font Check**, an open-source CLI for developers.
+- **Website Audit:** a score out of 100 built from its own checks, and an "ask again" button for each outside check.
+- **QR Code Generator:** your logo in the middle with an editor, codes up to version 40, and fixes for downloads and for codes overflowing their frame on phones.
+- **Quote & Invoice Generator v2:** a list of documents, GST invoices with CGST/SGST or IGST, a UPI pay QR, your logo.
+- **Brand Kit Generator v2:** colours from your logo, a second colour, light and dark themes, mockups, font pairings and a brand sheet.
+- **Image Compressor:** AVIF, PNG and a smaller 256-colour PNG, a target file size and a before/after view.
+- **Email check, Schema and Meta generators** rewritten in plain words, step by step.
+- **Project Scoper is now Project Brief Builder**, with must/nice/no per feature and a table to compare quotes.
 - Better contrast on breadcrumbs, input placeholders and excluded items.
 - Security update to the framework underneath the tools.
 
